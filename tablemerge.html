@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Table Merge</title>
+    <!-- Memanggil file CSS terpisah -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header Banner -->
+    <div class="header">
+        <img src="Biodata Banner .png" alt="Header Banner" class="header-img">
+    </div>
+
+    <!-- Menu Navigasi -->
+    <div class="topnav">
+        <a href="index.html">Biodata</a>
+        <a href="table.html">Table</a>
+        <a href="list.html">List</a>
+        <a href="budaya.html">STS</a>
+    </div>
+    <h2>Daftar Nilai Siswa</h2>
+    <div class="section-container">
+        <table>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Nama</th>
+                <th colspan="2">Ulangan</th>
+            </tr>
+            <tr>
+                <th class="highlight-orange">Nilai 1</th>
+                <th class="highlight-orange">Nilai 2</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rhea</td>
+                <td>95</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Gisella</td>
+                <td>90</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Queenly</td>
+                <td>94</td>
+                <td>96</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- BAGIAN TABEL MERGE PRESISI -->
+    <h2>Tugas Table Merge (Rowspan & Colspan)</h2>
+    <div class="section-container">
+        <table class="merge-table">
+            <!-- Baris 1 -->
+            <tr>
+                <td rowspan="3" class="pink-box">1</td>
+                <td colspan="2" class="pink-box">2</td>
+                <td colspan="2" class="pink-box">3</td>
+                <td rowspan="4" class="pink-box">4</td>
+                <td rowspan="4" class="pink-box">5</td>
+                <td rowspan="2" class="pink-box">6</td>
+                <td rowspan="6" class="pink-box">7</td>
+            </tr>
+        <!-- Baris 2 -->
+            <tr>
+                <td class="orange-box">8</td>
+                <td class="orange-box">9</td>
+                <td colspan="2" class="orange-box">10</td>
+            </tr>
+
+            <!-- Baris 3 -->
+            <tr>
+                <td class="pink-box">11</td>
+                <td class="pink-box">12</td>
+                <td class="pink-box">13</td>
+                <td class="pink-box">14</td>
+                <td rowspan="3" class="pink-box">15</td>
+            </tr>
+
+            <!-- Baris 4 -->
+            <tr>
+                <td colspan="5" class="orange-box">16</td>
+            </tr>
+
+            <!-- Baris 5 -->
+            <tr>
+                <td rowspan="2" class="pink-box">17</td>
+                <td colspan="2" class="pink-box">18</td>
+                <td rowspan="2" class="pink-box">19</td>
+                <td colspan="3" class="pink-box">20</td>
+            </tr>
+
+            <!-- Baris 6 -->
+            <tr>
+                <td class="orange-box">21</td>
+                <td class="orange-box">22</td>
+                <td colspan="4" class="orange-box">23</td>
+            </tr>
+            
+
+        </table>
+    </div>
+
+</body>
+</html>

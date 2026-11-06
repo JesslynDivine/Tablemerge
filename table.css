@@ -1,0 +1,135 @@
+/* 1. Styling Background & Halaman Coquette */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('coquette.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #3b2f2f;
+}
+
+/* 2. Header Banner */
+.header {
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-img {
+    width: 100%;
+    max-width: 1800px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* 3. Menu Navigasi Rata Kiri */
+.topnav {
+    background-color: #fbcfe8;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    box-shadow: 0 2px 5px rgba(225, 29, 72, 0.1);
+}
+
+.topnav a {
+    display: block;
+    color: #9d174d;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.topnav a:hover {
+    background-color: azure;
+    color: #9d174d;
+}
+
+/* 4. Judul Section */
+h2 {
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #8c5844;
+}
+
+/* 5. Container Pembungkus Tabel */
+.section-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* 6. Styling Tabel Nilai Siswa (Tabel Atas) */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 750px;
+    background-color: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 15px rgba(140, 88, 68, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 2px solid #d4b5a7;
+    padding: 12px 16px;
+    text-align: center;
+    font-size: 15px;
+    color: #4a3b32;
+    font-weight: bold;
+}
+
+/* Header Pink Pastel untuk Tabel Nilai */
+th {
+    background-color: rgba(243, 214, 220, 0.85);
+    color: #7d4e5d;
+}
+
+/* Header Beige / Oranye Soft untuk Nilai 1 & Nilai 2 */
+th.highlight-orange {
+    background-color: rgba(230, 213, 195, 0.85);
+    color: #6b4f3b;
+}
+
+/* 7. Styling Tabel Merge (Tabel Bawah) */
+.merge-table {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 750px;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(140, 88, 68, 0.15);
+}
+
+.merge-table td {
+    border: 2px solid #d4b5a7;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    height: 45px;
+    padding: 8px;
+}
+
+/* Warna Kotak Pink Pastel & Beige/Oranye Soft */
+.pink-box {
+    background-color: rgba(243, 214, 220, 0.85);
+    color: #7d4e5d;
+}
+
+.orange-box {
+    background-color: rgba(230, 213, 195, 0.85);
+    color: #6b4f3b;
+}

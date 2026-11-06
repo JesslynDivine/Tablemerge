@@ -1,0 +1,42 @@
+/* Styling Utama Table Merge */
+.merge-table {
+    border-collapse: collapse;
+    width: 95%;
+    max-width: 750px;
+    margin: 30px auto;
+    background-color: #faf5f0;
+    border: 3px solid #a3b18a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(88, 129, 87, 0.15);
+}
+
+/* Tetapan Sel (TD) */
+.merge-table td {
+    border: 2px solid #a3b18a;
+    padding: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 1. Warna Hijau Sage Pastel (Menggantikan Pink) */
+.merge-table .pink-box,
+.merge-table .pink-cell {
+    background-color: #c8d5b9 !important;
+    color: #3a5a40 !important;
+}
+
+/* 2. Warna Mint / Soft Matcha (Menggantikan Orange/Cream) */
+.merge-table .orange-box,
+.merge-table .cream-cell {
+    background-color: #e9f5db !important;
+    color: #344e41 !important;
+}
+
+/* Kesan Interaktif Sentuhan Kursor */
+.merge-table td:hover {
+    background-color: #b5c99a !important;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}

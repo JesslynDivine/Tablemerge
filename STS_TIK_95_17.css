@@ -1,0 +1,119 @@
+/* Pengaturan keseluruhan halaman (Background Biru Laut Bali) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #faf5e8 0%, #fef3c7 50%, #fde68a 100%);
+    background-attachment: fixed;
+    color:antiquewhite;
+}
+
+/* Bagian header dengan nuansa Orange & Kuning Sunset */
+header {
+    background: linear-gradient(rgba(229, 208, 165, 0.4), rgba(234, 88, 12, 0.5)), 
+                url("https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffb300; /* Aksen Kuning Emas */
+}
+
+/* Judul halaman */
+h1 {
+    color: #ffffff; /* Putih */
+    font-family: Georgia, serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+/* Hover pada judul (Berubah ke warna Kuning Emas) */
+h1:hover {
+    color: #ffb300; /* Kuning Emas */
+    font-size: 58px;
+    text-shadow: 0 0 15px rgba(255, 179, 0, 0.8);
+}
+
+.subtitle {
+    color: #fffef0;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Container utama (Warna Putih Bersih dengan Border Orange & Kuning) */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #ffffff; /* Warna Putih */
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 
+        0 15px 35px rgba(0, 0, 0, 0.3),
+        0 0 0 4px #ffb300, /* Accent Kuning Bali */
+        0 0 0 8px #ea580c; /* Accent Orange Bali */
+}
+
+/* Sub-judul H2 (Biru Tua dengan Border Orange Sunset) */
+h2 {
+    color:darkred; /* Biru Laut Bali */
+    font-family: Georgia, serif;
+    border-bottom: 3px solid #ea580c; /* Orange */
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Pengaturan paragraf */
+p {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+    text-indent: 45px;
+    color: #334155;
+}
+
+/* Penyesuaian Galeri untuk 3 Gambar */
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 35px 0;
+}
+
+.gallery img {
+    width: 30%; /* Mengatur lebar gambar agar fit 3 kolom */
+    min-width: 220px; /* Batas minimum jika dibuka di layar HP */
+    height: 200px;
+    object-fit: cover; /* Agar gambar tidak peyot/terdistorsi */
+    border-radius: 12px;
+    border: 3px solid #f59e0b; /* Frame Kuning Emas */
+    transition: all 0.4s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(234, 88, 12, 0.35);
+    border-color: #ea580c;
+
+}
+
+/* Footer (Biru Tua dengan Teks Putih & Border Kuning) */
+footer {
+    text-align: center;
+    background-color:darkred; 
+    color:#fde68a;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 3px solid darkred;
+}
+
+footer p {
+    text-indent: 0 !important;
+    text-align: center !important;
+    margin: 0;
+    font-weight: bold;
+    color:#ffb300 /* Kuning Emas */
+}
